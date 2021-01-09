@@ -1,0 +1,33 @@
+table{
+    border:black;
+    border-collapse: collapse;
+ 
+}
+td,th{
+    border:1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+// th{
+//     background-color: cadetblue;
+//     //border-radius: 3px;
+// }
+// tr:hover{
+//     background-color: rgba(153, 127, 127, 0.13);
+// }
+// div{
+//     align-items: center;
+// }
+.row{
+    margin-left:385px;
+    margin-top: 70px;
+    background-color: rgb(204, 198, 198);
+    font-size: large;
+    font-weight:bold;
+    
+}
+p{
+    font-size:xx-large;
+    font-weight:normal;   
+    color:black;
+}

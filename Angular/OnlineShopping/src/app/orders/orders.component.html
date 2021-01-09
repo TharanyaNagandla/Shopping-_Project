@@ -1,0 +1,47 @@
+<p style="text-align: center;">My Orders</p>
+
+<div style="background-color: lightsalmon;">
+    <div *ngFor="let item of order">
+        <div class="row" style="width: 500px;">
+            <div style="margin-top: 20px;margin-left: 30px; width: 300px;font-style: oblique;">
+            Order Id:{{item.Order_Id}}
+            <br>
+            Product Name:{{item.Prod_Name}}
+            <br>
+            Product Price:{{item.Prod_Price}}
+            <br>
+            Quantity:{{item.Prod_Quantity}}
+            <br>
+            Image:{{item.Prod_Image}}
+            <br>
+            <br>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="row">
+<div class="container">
+    <table>
+        <tr>
+            <th style="background-color: darkseagreen;">Order Id</th>
+            <th style="background-color: darkseagreen;">Product Name</th>
+            <th style="background-color: darkseagreen;">Price</th>
+            <th style="background-color: darkseagreen;">Quantity</th>
+        </tr>
+        <tr *ngFor="let item of order">
+            <td>{{item.Order_Id}}</td>
+            <td>{{item.Prod_Name}}</td>
+            <td>{{item.Prod_Price}}</td>
+            <td>{{item.Prod_Quantity}}</td>
+        </tr>
+        
+        <tr>
+            <th colspan="2">Total Price of the Products</th>
+            <td colspan="2">Rs.7500</td>
+        </tr>
+    </table>
+    <button (click)="orderPlaced()"class="btn btn-success" style="width: 370px;margin-top: 10px;">Place Order</button>
+</div>
+
+</div> -->
